@@ -1,0 +1,12 @@
+Steps for the Set-Up:
+-----------------------------
+C:\Users\nitish\Desktop\Langchain_world
+
+conda create -p venv_mylangchainworld python==3.12
+conda activate venv_mylangchainworld/
+conda activate C:\Users\nitish\Desktop\Langchain_world\venv_mylangchainworld
+conda info --envs
+pip install -r requirements.txt (this will install the package in the virtual env)
+select venv--->right side new created env
+pip install ipykernel -->To run the ipynb file we have to run this 
+conda deactivate
